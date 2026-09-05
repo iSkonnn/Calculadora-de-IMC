@@ -1,0 +1,43 @@
+/* GENERAL */
+body{
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    background-color: rgb(3, 122, 219);
+    text-align: center;
+}
+
+.title{
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAV */
+nav{
+    text-align: center;
+    background-color: rgb(187, 187, 20);
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAIN */
+.form{
+    text-align: center;
+    margin: 5em;
+    font-size: 18px;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 5em;
+    background-color: rgb(3, 122, 219);
+}
