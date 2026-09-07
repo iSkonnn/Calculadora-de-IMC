@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC by Luis</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- HEADER -->
@@ -20,16 +21,26 @@
     <!-- MAIN -->
     <main>
         <div class="form">
-            <label for="peso">Digite seu peso</label><br>
-            <input type="number" id="peso" name="peso">
+            <label for="peso">Digite seu peso (em kg)</label><br>
+            <input type="number" id="weight" name="weight">
+            <br>
             <br>
             <br>
             <label for="altura">Digite sua altura (em metros)</label><br>
-            <input type="number" id="altura" name="altura">
+            <input type="number" id="height" name="height">
             <br>
             <br>
-            <button>Calcular</button>
+            <button onclick="clickedButton()">Calcular</button>
+            <br>
+            <br>
+            <p class="imcText"></p>
+            <p></p>
         </div>
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        
+    </footer>
 </body>
 </html>
