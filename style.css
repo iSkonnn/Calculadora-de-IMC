@@ -19,7 +19,7 @@ header{
 /* NAV */
 nav{
     text-align: center;
-    background-color: rgb(187, 187, 20);
+    background-color: rgb(224, 177, 21);
     padding: 5px;
 }
 
@@ -34,10 +34,62 @@ nav a{
 /* MAIN */
 .form{
     text-align: center;
-    margin: 5em;
+    margin: 5em 25em;
     font-size: 18px;
     border-radius: 20px;
     color: whitesmoke;
     padding: 5em;
     background-color: rgb(3, 122, 219);
+    text-shadow: 1px 1px 0 #000;
+}
+
+.form label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form input{
+    margin-top: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+.form button{
+    border-radius: 5px;
+    background: transparent;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+    color: whitesmoke;
+    transition-duration: 0.25s;
+    margin-top: 1em;
+    padding: 0.3em 1em;
+}
+
+.form button:hover{
+    color: rgb(3, 122, 219);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.imcText{
+    font-size: 20px;
+    color: rgb(3, 122, 219);
+    background-color: whitesmoke;
+    margin: 2em 12em -2em 12em;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    visibility: hidden;
 }
